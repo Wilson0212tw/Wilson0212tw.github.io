@@ -58189,7 +58189,7 @@ s=A.zH(10)
 r=this.a.a.c
 q=r.x
 q.toString
-q=A.anH(o,o,new A.op("https://image.tmdb.org/t/p/w92/"+q,1,o))
+q=A.anH(o,o,new A.op("https://image.tmdb.org/t/p/w342/"+q,1,o))
 r=r.as
 r.toString
 p=t.F
