@@ -59323,7 +59323,7 @@ A.L2.prototype={
 av(){this.aY()},
 M(a){var s=null,r=A.Af(10),q=this.a.c,p=q.x
 p.toString
-p=A.aeK(!1,!0,new A.h3(B.zr,new A.B7(r,A.aeJ("https://image.tmdb.org/t/p/w780/"+p,s),s),s),s,!0,s,s,s,s,s,s,s,s,s,new A.a6J(this,a),s,s,s,s)
+p=A.aeK(!1,!0,new A.h3(B.zr,new A.B7(r,A.aeJ("https://image.tmdb.org/t/p/w500/"+p,s),s),s),s,!0,s,s,s,s,s,s,s,s,s,new A.a6J(this,a),s,s,s,s)
 q=q.as
 q.toString
 return A.rA(new A.h3(B.b2,A.wg(B.bS,A.a([p,A.Y9(0,new A.F1(q,s),s,s,45,s,s,s)],t.F),B.cH),s),s,s)}}
