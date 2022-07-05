@@ -5,19 +5,9 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    animation: spin 4s linear infinite;
+ 
 }
 
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
-}
-
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
-}
 
 html,
 body {
