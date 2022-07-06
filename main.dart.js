@@ -17035,7 +17035,7 @@ t.Dn.a(a)
 s=J.ar(a)
 r=s.j(a,0)
 r.toString
-switch(B.BO[A.dY(r)].a){case 0:s=s.cY(a,1)
+switch(B.BP[A.dY(r)].a){case 0:s=s.cY(a,1)
 r=s[0]
 r.toString
 A.dY(r)
@@ -22121,7 +22121,7 @@ m.push(new A.mR(o[0],o[1],o[2],o[3],B.m5[n]))}return m},
 ic(a){var s,r=this.d
 r.toString
 r=this.kS(r).getGlyphPositionAtCoordinate(a.a,a.b)
-s=B.BX[r.affinity.value]
+s=B.BY[r.affinity.value]
 return new A.d_(r.pos,s)},
 Ad(a){var s=this.d
 s.toString
@@ -22963,7 +22963,7 @@ i.f.push(q)}return q},
 QT(a,b,c,a0){var s,r,q,p,o,n,m,l="destalpha",k="flood",j="comp",i="SourceGraphic",h="background-color",g="absolute",f="position",e="background-image",d=c.a
 switch(d){case 19:case 18:case 25:case 13:case 15:case 12:case 5:case 9:case 7:case 26:case 27:case 28:case 11:case 10:switch(d){case 5:case 9:s=A.pT()
 A.F(s.c,"setAttribute",["color-interpolation-filters","sRGB"])
-s.Av(B.C4,l)
+s.Av(B.C5,l)
 d=A.ci(b)
 s.kA(d==null?"":d,"1",k)
 s.p5(k,l,1,0,0,0,6,j)
@@ -27483,14 +27483,14 @@ S7(){var s=this,r=s.z
 if(r==null){r=s.z=new A.rk(s.f)
 r.d=new A.TA(s)}return r},
 Jh(a){var s,r=this
-if(B.b.v(B.C1,a.type)){s=r.S7()
+if(B.b.v(B.C2,a.type)){s=r.S7()
 s.toString
 s.sxg(J.fO(r.f.$0(),B.lE))
 if(r.y!==B.lK){r.y=B.lK
 r.DO()}}return r.r.a.L6(a)},
 DO(){var s,r
 for(s=this.Q,r=0;r<s.length;++r)s[r].$1(this.y)},
-L4(a){if(B.b.v(B.C3,a))return this.y===B.bC
+L4(a){if(B.b.v(B.C4,a))return this.y===B.bC
 return!1},
 a34(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this
 if(!f.w){f.r.a.n()
@@ -38859,7 +38859,7 @@ a4.a.toString
 if(q===!0){b0=g.c
 if(b0==null)b0=24
 A.Ea(b2,B.cR,t.c4).toString
-c=A.acI(a5,B.lP,b0,a4.gSU(),a6)}else{if(!(!p&&o)){if(b0)b0=a5
+c=A.acI(a5,B.lQ,b0,a4.gSU(),a6)}else{if(!(!p&&o)){if(b0)b0=a5
 else b0=b1.grf()||b1.xS$>0
 b0=b0===!0}else b0=!0
 if(b0)c=B.vq
@@ -38879,7 +38879,7 @@ if(b0!=null&&!0){b0.toString
 a1=A.w4(b0,B.d7,B.bH,B.bI)}else if(p){b0=g.c
 if(b0==null)b0=24
 A.Ea(b2,B.cR,t.c4).toString
-a1=A.acI(a5,B.lP,b0,a4.gSW(),a6)}else a1=a5
+a1=A.acI(a5,B.lQ,b0,a4.gSW(),a6)}else a1=a5
 if(a1!=null)a1=A.ua(a1,f)
 b0=a4.a.S6(a7)
 a4.a.toString
@@ -60635,7 +60635,7 @@ A.LB.prototype={
 ap(){this.aV()},
 J(a){var s=null,r=A.AO(10),q=this.a.c,p=q.b
 p.toString
-p=A.acJ(!1,!0,new A.eo(B.zR,new A.BF(r,A.ago("https://image.tmdb.org/t/p/w500/"+p,B.vP,s),s),s),s,!0,s,s,s,s,s,s,s,s,s,new A.a8e(this,a),s,s,s,s)
+p=A.acJ(!1,!0,new A.eo(B.zR,new A.BF(r,A.ago("https://image.tmdb.org/t/p/w780"+p,B.vP,s),s),s),s,!0,s,s,s,s,s,s,s,s,s,new A.a8e(this,a),s,s,s,s)
 q=q.e
 q.toString
 return A.rY(new A.eo(B.zN,A.pK(B.b2,A.a([p,A.YU(0,new A.Fx(q,s),s,s,s,s,s,s)],t.E),B.b0,s,s),s),s,s)}}
@@ -60688,7 +60688,7 @@ q=A.agl(r?B.Ah:B.Ag,B.j)
 p=A.wV(r?"out        |":"In        |",n,B.Jv,n,n)
 s=A.afm(A.a([new A.N9(o.gKT(),n,n,n,n,B.D,n,!1,n,new A.Na(p,q,n),n)],t.E),s)
 r=o.f
-return A.ahw(s,new A.DE(r,B.b2,n,B.b0,B.C0,n),new A.rI(B.C5,o.gV8(),r,B.z9,n))}}
+return A.ahw(s,new A.DE(r,B.b2,n,B.b0,B.C1,n),new A.rI(B.BI,o.gV8(),r,B.z9,n))}}
 A.a7K.prototype={
 $0(){this.a.e=this.b},
 $S:0}
@@ -60701,14 +60701,13 @@ $0(){this.a.f=this.b},
 $S:0}
 A.o4.prototype={
 J(a){var s,r=null,q=this.c,p=q.gzH(q)
-p.toString
-p=A.afm(r,A.wV(p,r,r,r,r))
+p=A.afm(r,A.wV(p==null?"":p,r,r,r,r))
 s=q.f
 s.toString
 s=A.f7(r,A.wV(s,!0,B.JI,r,r),B.p,r,r,r,r,B.lF,r)
 q=q.b
 q.toString
-return A.ahw(p,new A.GU(A.act(A.a([s,new A.eo(B.lF,A.ago("https://image.tmdb.org/t/p/original/"+q,r,new A.RD()),r)],t.E),B.b7,B.bH,B.dI),r),r)}}
+return A.ahw(p,new A.GU(A.act(A.a([s,new A.eo(B.lF,A.ago("https://image.tmdb.org/t/p/original"+q,r,new A.RD()),r)],t.E),B.b7,B.bH,B.dI),r),r)}}
 A.RD.prototype={
 $3(a,b,c){var s,r,q=null
 if(c==null)return b
@@ -60732,23 +60731,23 @@ A.abN().$1("loading next page :"+l.r)
 s=l.a
 if(s.d){s=l.d
 s===$&&A.d()
-r=A.ay(["page",l.r],t.N,t.z)
+r=A.ay(["page",l.r,"region","TW","language","zh-TW"],t.N,t.z)
 s=s.a
 s===$&&A.d()
 q=t.XU
-s.tr(0,new A.ft("GET",s.a,"movie/now_playing",null,B.ff,r,B.fB,!1),q,q).b1(new A.a89(l),t.P)}else{s=s.c
+s.tr(0,new A.ft("GET",s.a,"/trending/all/day",null,B.ff,r,B.fB,!1),q,q).b1(new A.a89(l),t.P)}else{s=s.c
 q=t.N
 p=t.z
 o=t.P
 n=l.d
 m=l.r
 if(s){n===$&&A.d()
-r=A.ay(["page",m],q,p)
+r=A.ay(["page",m,"region","TW","language","zh-TW"],q,p)
 s=n.a
 s===$&&A.d()
 q=t.N0
 s.tr(0,new A.ft("GET",s.a,"tv/popular",null,B.ff,r,B.fB,!1),q,q).b1(new A.a8a(l),o)}else{n===$&&A.d()
-r=A.ay(["page",m],q,p)
+r=A.ay(["page",m,"region","TW","language","zh-TW"],q,p)
 s=n.a
 s===$&&A.d()
 q=t.XU
@@ -64992,9 +64991,9 @@ B.lM=new A.cy(B.j,null,null,null)
 B.Ak=new A.cy(B.j,1,24,null)
 B.f1=new A.cy(B.i,null,null,null)
 B.Ad=new A.fg(58332,!1)
-B.lP=new A.iY(B.Ad,null,null)
-B.Af=new A.fg(58727,!1)
-B.Am=new A.iY(B.Af,null,null)
+B.lQ=new A.iY(B.Ad,null,null)
+B.Ae=new A.fg(58727,!1)
+B.Am=new A.iY(B.Ae,null,null)
 B.lR=new A.uc(0,"rawRgba")
 B.An=new A.uc(1,"rawStraightRgba")
 B.Au=new A.m6(0,"repeat")
@@ -65132,13 +65131,23 @@ B.cT=new A.ct(16,"ZWJ")
 B.kc=new A.ct(17,"WSegSpace")
 B.v0=new A.ct(18,"Unknown")
 B.BG=A.a(s([B.k9,B.bY,B.a_,B.ea,B.eb,B.kd,B.cU,B.Mk,B.cV,B.cW,B.aq,B.ka,B.kb,B.cS,B.aP,B.e9,B.cT,B.kc,B.v0]),A.a6("w<ct>"))
+B.Ai=new A.fg(60168,!1)
+B.lO=new A.iY(B.Ai,null,null)
+B.vC=new A.nL(B.lO,B.lO,"Movie")
+B.Aj=new A.fg(60798,!1)
+B.lN=new A.iY(B.Aj,null,null)
+B.vA=new A.nL(B.lN,B.lN,"TvShow")
+B.Af=new A.fg(59007,!0)
+B.lP=new A.iY(B.Af,null,null)
+B.vB=new A.nL(B.lP,B.lP,"Trending")
+B.BI=A.a(s([B.vC,B.vA,B.vB]),A.a6("w<nL>"))
 B.m2=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 B.m3=A.a(s([0,0,26498,1023,65534,34815,65534,18431]),t.t)
 B.CF=new A.kv("en","US")
 B.m4=A.a(s([B.CF]),t.ss)
 B.ki=new A.qS(0,"named")
 B.Ng=new A.qS(1,"anonymous")
-B.BO=A.a(s([B.ki,B.Ng]),A.a6("w<qS>"))
+B.BP=A.a(s([B.ki,B.Ng]),A.a6("w<qS>"))
 B.cA=new A.t(1,0)
 B.ET=new A.t(1,1)
 B.dN=new A.t(0,1)
@@ -65150,7 +65159,7 @@ B.EU=new A.t(1,-1)
 B.dv=A.a(s([B.cA,B.ET,B.dN,B.EX,B.rn,B.EY,B.rm,B.EU]),t.yv)
 B.aN=new A.pY(0,"upstream")
 B.M=new A.pY(1,"downstream")
-B.BX=A.a(s([B.aN,B.M]),A.a6("w<pY>"))
+B.BY=A.a(s([B.aN,B.M]),A.a6("w<pY>"))
 B.N=new A.ju(0,"rtl")
 B.m=new A.ju(1,"ltr")
 B.m5=A.a(s([B.N,B.m]),A.a6("w<ju>"))
@@ -65158,20 +65167,10 @@ B.m6=A.a(s([B.f3,B.dh,B.dk,B.f8,B.fc,B.ds,B.lZ,B.fd,B.am,B.dt,B.bc,B.cg,B.bG,B.d
 B.Fg=new A.mw(!1,!1,null)
 B.Fi=new A.mw(!0,!1,null)
 B.Fh=new A.mw(!1,!0,null)
-B.C0=A.a(s([B.Fg,B.Fi,B.Fh]),t.E)
-B.C1=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
-B.C3=A.a(s(["click","scroll"]),t.s)
-B.C4=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.up)
-B.Ai=new A.fg(60168,!1)
-B.lO=new A.iY(B.Ai,null,null)
-B.vB=new A.nL(B.lO,B.lO,"Movie")
-B.Aj=new A.fg(60798,!1)
-B.lN=new A.iY(B.Aj,null,null)
-B.vA=new A.nL(B.lN,B.lN,"TvShow")
-B.Ae=new A.fg(58383,!1)
-B.lQ=new A.iY(B.Ae,null,null)
-B.vC=new A.nL(B.lQ,B.lQ,"Movie Latest")
-B.C5=A.a(s([B.vB,B.vA,B.vC]),A.a6("w<nL>"))
+B.C1=A.a(s([B.Fg,B.Fi,B.Fh]),t.E)
+B.C2=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
+B.C4=A.a(s(["click","scroll"]),t.s)
+B.C5=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.up)
 B.Ny=A.a(s([]),t.Bm)
 B.m8=A.a(s([]),t.v)
 B.m9=A.a(s([]),A.a6("w<ax1>"))
@@ -65212,8 +65211,8 @@ B.Cq=A.a(s([71,73,70,56,57,97]),t.Z)
 B.As=new A.iZ(B.Cq,"image/gif")
 B.AX=A.a(s([255,216,255]),t.Z)
 B.Ap=new A.iZ(B.AX,"image/jpeg")
-B.BY=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
-B.Aq=new A.iZ(B.BY,"image/webp")
+B.BZ=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
+B.Aq=new A.iZ(B.BZ,"image/webp")
 B.Bw=A.a(s([66,77]),t.Z)
 B.Ao=new A.iZ(B.Bw,"image/bmp")
 B.Cm=A.a(s([B.At,B.Ar,B.As,B.Ap,B.Aq,B.Ao]),A.a6("w<iZ>"))
@@ -65286,19 +65285,19 @@ B.CD=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
 B.r8=new A.b9(31,{"*":B.Bf,"+":B.Bg,"-":B.Bh,".":B.Bi,"/":B.Bj,"0":B.Bk,"1":B.Bl,"2":B.Bo,"3":B.Bp,"4":B.Bq,"5":B.Br,"6":B.Bs,"7":B.Bt,"8":B.Bu,"9":B.Bv,Alt:B.CA,ArrowDown:B.B5,ArrowLeft:B.B6,ArrowRight:B.B7,ArrowUp:B.B8,Clear:B.Bd,Control:B.CB,Delete:B.B4,End:B.B9,Enter:B.B3,Home:B.Ba,Insert:B.Be,Meta:B.CC,PageDown:B.Bb,PageUp:B.Bc,Shift:B.CD},B.m1,A.a6("b9<m,v<k?>>"))
 B.ml=new A.e(42)
 B.r2=new A.e(8589935146)
-B.BJ=A.a(s([B.ml,null,null,B.r2]),t.L)
+B.BK=A.a(s([B.ml,null,null,B.r2]),t.L)
 B.qP=new A.e(43)
 B.r3=new A.e(8589935147)
-B.BK=A.a(s([B.qP,null,null,B.r3]),t.L)
+B.BL=A.a(s([B.qP,null,null,B.r3]),t.L)
 B.qQ=new A.e(45)
 B.r4=new A.e(8589935149)
-B.BL=A.a(s([B.qQ,null,null,B.r4]),t.L)
+B.BM=A.a(s([B.qQ,null,null,B.r4]),t.L)
 B.qR=new A.e(46)
 B.fo=new A.e(8589935150)
-B.BM=A.a(s([B.qR,null,null,B.fo]),t.L)
+B.BN=A.a(s([B.qR,null,null,B.fo]),t.L)
 B.qS=new A.e(47)
 B.r5=new A.e(8589935151)
-B.BN=A.a(s([B.qS,null,null,B.r5]),t.L)
+B.BO=A.a(s([B.qS,null,null,B.r5]),t.L)
 B.qT=new A.e(48)
 B.fp=new A.e(8589935152)
 B.Cr=A.a(s([B.qT,null,null,B.fp]),t.L)
@@ -65325,39 +65324,39 @@ B.fw=new A.e(8589935159)
 B.Cy=A.a(s([B.r_,null,null,B.fw]),t.L)
 B.r0=new A.e(56)
 B.fx=new A.e(8589935160)
-B.BV=A.a(s([B.r0,null,null,B.fx]),t.L)
+B.BW=A.a(s([B.r0,null,null,B.fx]),t.L)
 B.r1=new A.e(57)
 B.fy=new A.e(8589935161)
-B.BW=A.a(s([B.r1,null,null,B.fy]),t.L)
+B.BX=A.a(s([B.r1,null,null,B.fy]),t.L)
 B.Bz=A.a(s([B.cs,B.cs,B.dG,null]),t.L)
 B.aF=new A.e(4294968065)
-B.BP=A.a(s([B.aF,null,null,B.fr]),t.L)
+B.BQ=A.a(s([B.aF,null,null,B.fr]),t.L)
 B.an=new A.e(4294968066)
-B.BQ=A.a(s([B.an,null,null,B.ft]),t.L)
+B.BR=A.a(s([B.an,null,null,B.ft]),t.L)
 B.ao=new A.e(4294968067)
-B.BR=A.a(s([B.ao,null,null,B.fv]),t.L)
+B.BS=A.a(s([B.ao,null,null,B.fv]),t.L)
 B.aG=new A.e(4294968068)
 B.B2=A.a(s([B.aG,null,null,B.fx]),t.L)
 B.fl=new A.e(4294968321)
 B.Bx=A.a(s([B.fl,null,null,B.fu]),t.L)
 B.BA=A.a(s([B.cq,B.cq,B.dE,null]),t.L)
-B.BI=A.a(s([B.a7,null,null,B.fo]),t.L)
+B.BJ=A.a(s([B.a7,null,null,B.fo]),t.L)
 B.bd=new A.e(4294968069)
-B.BS=A.a(s([B.bd,null,null,B.fq]),t.L)
+B.BT=A.a(s([B.bd,null,null,B.fq]),t.L)
 B.dy=new A.e(4294967309)
 B.fn=new A.e(8589935117)
-B.C2=A.a(s([B.dy,null,null,B.fn]),t.L)
+B.C3=A.a(s([B.dy,null,null,B.fn]),t.L)
 B.be=new A.e(4294968070)
-B.BT=A.a(s([B.be,null,null,B.fw]),t.L)
+B.BU=A.a(s([B.be,null,null,B.fw]),t.L)
 B.fm=new A.e(4294968327)
 B.By=A.a(s([B.fm,null,null,B.fp]),t.L)
 B.BB=A.a(s([B.ct,B.ct,B.dH,null]),t.L)
 B.dC=new A.e(4294968071)
-B.BU=A.a(s([B.dC,null,null,B.fs]),t.L)
+B.BV=A.a(s([B.dC,null,null,B.fs]),t.L)
 B.dD=new A.e(4294968072)
 B.Ci=A.a(s([B.dD,null,null,B.fy]),t.L)
 B.BC=A.a(s([B.cr,B.cr,B.dF,null]),t.L)
-B.Ef=new A.b9(31,{"*":B.BJ,"+":B.BK,"-":B.BL,".":B.BM,"/":B.BN,"0":B.Cr,"1":B.Cs,"2":B.Ct,"3":B.Cu,"4":B.Cv,"5":B.Cw,"6":B.Cx,"7":B.Cy,"8":B.BV,"9":B.BW,Alt:B.Bz,ArrowDown:B.BP,ArrowLeft:B.BQ,ArrowRight:B.BR,ArrowUp:B.B2,Clear:B.Bx,Control:B.BA,Delete:B.BI,End:B.BS,Enter:B.C2,Home:B.BT,Insert:B.By,Meta:B.BB,PageDown:B.BU,PageUp:B.Ci,Shift:B.BC},B.m1,A.a6("b9<m,v<e?>>"))
+B.Ef=new A.b9(31,{"*":B.BK,"+":B.BL,"-":B.BM,".":B.BN,"/":B.BO,"0":B.Cr,"1":B.Cs,"2":B.Ct,"3":B.Cu,"4":B.Cv,"5":B.Cw,"6":B.Cx,"7":B.Cy,"8":B.BW,"9":B.BX,Alt:B.Bz,ArrowDown:B.BQ,ArrowLeft:B.BR,ArrowRight:B.BS,ArrowUp:B.B2,Clear:B.Bx,Control:B.BA,Delete:B.BJ,End:B.BT,Enter:B.C3,Home:B.BU,Insert:B.By,Meta:B.BB,PageDown:B.BV,PageUp:B.Ci,Shift:B.BC},B.m1,A.a6("b9<m,v<e?>>"))
 B.BH=A.a(s(["Abort","Again","AltLeft","AltRight","ArrowDown","ArrowLeft","ArrowRight","ArrowUp","AudioVolumeDown","AudioVolumeMute","AudioVolumeUp","Backquote","Backslash","Backspace","BracketLeft","BracketRight","BrightnessDown","BrightnessUp","BrowserBack","BrowserFavorites","BrowserForward","BrowserHome","BrowserRefresh","BrowserSearch","BrowserStop","CapsLock","Comma","ContextMenu","ControlLeft","ControlRight","Convert","Copy","Cut","Delete","Digit0","Digit1","Digit2","Digit3","Digit4","Digit5","Digit6","Digit7","Digit8","Digit9","DisplayToggleIntExt","Eject","End","Enter","Equal","Esc","Escape","F1","F10","F11","F12","F13","F14","F15","F16","F17","F18","F19","F2","F20","F21","F22","F23","F24","F3","F4","F5","F6","F7","F8","F9","Find","Fn","FnLock","GameButton1","GameButton10","GameButton11","GameButton12","GameButton13","GameButton14","GameButton15","GameButton16","GameButton2","GameButton3","GameButton4","GameButton5","GameButton6","GameButton7","GameButton8","GameButton9","GameButtonA","GameButtonB","GameButtonC","GameButtonLeft1","GameButtonLeft2","GameButtonMode","GameButtonRight1","GameButtonRight2","GameButtonSelect","GameButtonStart","GameButtonThumbLeft","GameButtonThumbRight","GameButtonX","GameButtonY","GameButtonZ","Help","Home","Hyper","Insert","IntlBackslash","IntlRo","IntlYen","KanaMode","KeyA","KeyB","KeyC","KeyD","KeyE","KeyF","KeyG","KeyH","KeyI","KeyJ","KeyK","KeyL","KeyM","KeyN","KeyO","KeyP","KeyQ","KeyR","KeyS","KeyT","KeyU","KeyV","KeyW","KeyX","KeyY","KeyZ","KeyboardLayoutSelect","Lang1","Lang2","Lang3","Lang4","Lang5","LaunchApp1","LaunchApp2","LaunchAssistant","LaunchControlPanel","LaunchMail","LaunchScreenSaver","MailForward","MailReply","MailSend","MediaFastForward","MediaPause","MediaPlay","MediaPlayPause","MediaRecord","MediaRewind","MediaSelect","MediaStop","MediaTrackNext","MediaTrackPrevious","MetaLeft","MetaRight","MicrophoneMuteToggle","Minus","NonConvert","NumLock","Numpad0","Numpad1","Numpad2","Numpad3","Numpad4","Numpad5","Numpad6","Numpad7","Numpad8","Numpad9","NumpadAdd","NumpadBackspace","NumpadClear","NumpadClearEntry","NumpadComma","NumpadDecimal","NumpadDivide","NumpadEnter","NumpadEqual","NumpadMemoryAdd","NumpadMemoryClear","NumpadMemoryRecall","NumpadMemoryStore","NumpadMemorySubtract","NumpadMultiply","NumpadParenLeft","NumpadParenRight","NumpadSubtract","Open","PageDown","PageUp","Paste","Pause","Period","Power","PrintScreen","PrivacyScreenToggle","Props","Quote","Resume","ScrollLock","Select","SelectTask","Semicolon","ShiftLeft","ShiftRight","ShowAllWindows","Slash","Sleep","Space","Super","Suspend","Tab","Turbo","Undo","WakeUp","ZoomToggle"]),t.s)
 B.Eg=new A.b9(231,{Abort:458907,Again:458873,AltLeft:458978,AltRight:458982,ArrowDown:458833,ArrowLeft:458832,ArrowRight:458831,ArrowUp:458834,AudioVolumeDown:458881,AudioVolumeMute:458879,AudioVolumeUp:458880,Backquote:458805,Backslash:458801,Backspace:458794,BracketLeft:458799,BracketRight:458800,BrightnessDown:786544,BrightnessUp:786543,BrowserBack:786980,BrowserFavorites:786986,BrowserForward:786981,BrowserHome:786979,BrowserRefresh:786983,BrowserSearch:786977,BrowserStop:786982,CapsLock:458809,Comma:458806,ContextMenu:458853,ControlLeft:458976,ControlRight:458980,Convert:458890,Copy:458876,Cut:458875,Delete:458828,Digit0:458791,Digit1:458782,Digit2:458783,Digit3:458784,Digit4:458785,Digit5:458786,Digit6:458787,Digit7:458788,Digit8:458789,Digit9:458790,DisplayToggleIntExt:65717,Eject:786616,End:458829,Enter:458792,Equal:458798,Esc:458793,Escape:458793,F1:458810,F10:458819,F11:458820,F12:458821,F13:458856,F14:458857,F15:458858,F16:458859,F17:458860,F18:458861,F19:458862,F2:458811,F20:458863,F21:458864,F22:458865,F23:458866,F24:458867,F3:458812,F4:458813,F5:458814,F6:458815,F7:458816,F8:458817,F9:458818,Find:458878,Fn:18,FnLock:19,GameButton1:392961,GameButton10:392970,GameButton11:392971,GameButton12:392972,GameButton13:392973,GameButton14:392974,GameButton15:392975,GameButton16:392976,GameButton2:392962,GameButton3:392963,GameButton4:392964,GameButton5:392965,GameButton6:392966,GameButton7:392967,GameButton8:392968,GameButton9:392969,GameButtonA:392977,GameButtonB:392978,GameButtonC:392979,GameButtonLeft1:392980,GameButtonLeft2:392981,GameButtonMode:392982,GameButtonRight1:392983,GameButtonRight2:392984,GameButtonSelect:392985,GameButtonStart:392986,GameButtonThumbLeft:392987,GameButtonThumbRight:392988,GameButtonX:392989,GameButtonY:392990,GameButtonZ:392991,Help:458869,Home:458826,Hyper:16,Insert:458825,IntlBackslash:458852,IntlRo:458887,IntlYen:458889,KanaMode:458888,KeyA:458756,KeyB:458757,KeyC:458758,KeyD:458759,KeyE:458760,KeyF:458761,KeyG:458762,KeyH:458763,KeyI:458764,KeyJ:458765,KeyK:458766,KeyL:458767,KeyM:458768,KeyN:458769,KeyO:458770,KeyP:458771,KeyQ:458772,KeyR:458773,KeyS:458774,KeyT:458775,KeyU:458776,KeyV:458777,KeyW:458778,KeyX:458779,KeyY:458780,KeyZ:458781,KeyboardLayoutSelect:787101,Lang1:458896,Lang2:458897,Lang3:458898,Lang4:458899,Lang5:458900,LaunchApp1:786836,LaunchApp2:786834,LaunchAssistant:786891,LaunchControlPanel:786847,LaunchMail:786826,LaunchScreenSaver:786865,MailForward:787083,MailReply:787081,MailSend:787084,MediaFastForward:786611,MediaPause:786609,MediaPlay:786608,MediaPlayPause:786637,MediaRecord:786610,MediaRewind:786612,MediaSelect:786819,MediaStop:786615,MediaTrackNext:786613,MediaTrackPrevious:786614,MetaLeft:458979,MetaRight:458983,MicrophoneMuteToggle:24,Minus:458797,NonConvert:458891,NumLock:458835,Numpad0:458850,Numpad1:458841,Numpad2:458842,Numpad3:458843,Numpad4:458844,Numpad5:458845,Numpad6:458846,Numpad7:458847,Numpad8:458848,Numpad9:458849,NumpadAdd:458839,NumpadBackspace:458939,NumpadClear:458968,NumpadClearEntry:458969,NumpadComma:458885,NumpadDecimal:458851,NumpadDivide:458836,NumpadEnter:458840,NumpadEqual:458855,NumpadMemoryAdd:458963,NumpadMemoryClear:458962,NumpadMemoryRecall:458961,NumpadMemoryStore:458960,NumpadMemorySubtract:458964,NumpadMultiply:458837,NumpadParenLeft:458934,NumpadParenRight:458935,NumpadSubtract:458838,Open:458868,PageDown:458830,PageUp:458827,Paste:458877,Pause:458824,Period:458807,Power:458854,PrintScreen:458822,PrivacyScreenToggle:23,Props:458915,Quote:458804,Resume:21,ScrollLock:458823,Select:458871,SelectTask:786850,Semicolon:458803,ShiftLeft:458977,ShiftRight:458981,ShowAllWindows:787103,Slash:458808,Sleep:65666,Space:458796,Super:17,Suspend:20,Tab:458795,Turbo:22,Undo:458874,WakeUp:65667,ZoomToggle:786994},B.BH,t.eL)
 B.rs=new A.j(16)
@@ -65630,8 +65629,8 @@ B.jq=new A.j(787084)
 B.jr=new A.j(787101)
 B.js=new A.j(787103)
 B.Ej=new A.cl([16,B.rs,17,B.rt,18,B.cB,19,B.ru,20,B.rv,21,B.rw,22,B.rx,23,B.fK,24,B.fL,65666,B.iU,65667,B.iV,65717,B.iW,392961,B.ry,392962,B.rz,392963,B.rA,392964,B.rB,392965,B.rC,392966,B.rD,392967,B.rE,392968,B.rF,392969,B.rG,392970,B.rH,392971,B.rI,392972,B.rJ,392973,B.rK,392974,B.rL,392975,B.rM,392976,B.rN,392977,B.rO,392978,B.rP,392979,B.rQ,392980,B.rR,392981,B.rS,392982,B.rT,392983,B.rU,392984,B.rV,392985,B.rW,392986,B.rX,392987,B.rY,392988,B.rZ,392989,B.t_,392990,B.t0,392991,B.t1,458752,B.F6,458753,B.F7,458754,B.F8,458755,B.F9,458756,B.fM,458757,B.fN,458758,B.fO,458759,B.fP,458760,B.fQ,458761,B.fR,458762,B.fS,458763,B.fT,458764,B.fU,458765,B.fV,458766,B.fW,458767,B.fX,458768,B.fY,458769,B.fZ,458770,B.h_,458771,B.h0,458772,B.h1,458773,B.h2,458774,B.h3,458775,B.h4,458776,B.h5,458777,B.h6,458778,B.h7,458779,B.h8,458780,B.h9,458781,B.ha,458782,B.hb,458783,B.hc,458784,B.hd,458785,B.he,458786,B.hf,458787,B.hg,458788,B.hh,458789,B.hi,458790,B.hj,458791,B.hk,458792,B.hl,458793,B.dQ,458794,B.hm,458795,B.hn,458796,B.ho,458797,B.hp,458798,B.hq,458799,B.hr,458800,B.hs,458801,B.ht,458803,B.hu,458804,B.hv,458805,B.hw,458806,B.hx,458807,B.hy,458808,B.hz,458809,B.cC,458810,B.hA,458811,B.hB,458812,B.hC,458813,B.hD,458814,B.hE,458815,B.hF,458816,B.hG,458817,B.hH,458818,B.hI,458819,B.hJ,458820,B.hK,458821,B.hL,458822,B.hM,458823,B.cD,458824,B.hN,458825,B.hO,458826,B.hP,458827,B.hQ,458828,B.hR,458829,B.hS,458830,B.hT,458831,B.hU,458832,B.hV,458833,B.hW,458834,B.hX,458835,B.cE,458836,B.hY,458837,B.hZ,458838,B.i_,458839,B.i0,458840,B.i1,458841,B.i2,458842,B.i3,458843,B.i4,458844,B.i5,458845,B.i6,458846,B.i7,458847,B.i8,458848,B.i9,458849,B.ia,458850,B.ib,458851,B.ic,458852,B.id,458853,B.ie,458854,B.ig,458855,B.ih,458856,B.ii,458857,B.ij,458858,B.ik,458859,B.il,458860,B.im,458861,B.io,458862,B.ip,458863,B.iq,458864,B.ir,458865,B.is,458866,B.it,458867,B.iu,458868,B.iv,458869,B.iw,458871,B.ix,458873,B.iy,458874,B.iz,458875,B.iA,458876,B.iB,458877,B.iC,458878,B.iD,458879,B.iE,458880,B.iF,458881,B.iG,458885,B.iH,458887,B.iI,458888,B.iJ,458889,B.iK,458890,B.iL,458891,B.iM,458896,B.iN,458897,B.iO,458898,B.iP,458899,B.iQ,458900,B.iR,458907,B.t2,458915,B.t3,458934,B.iS,458935,B.iT,458939,B.t4,458960,B.t5,458961,B.t6,458962,B.t7,458963,B.t8,458964,B.t9,458967,B.ta,458968,B.tb,458969,B.tc,458976,B.bh,458977,B.bi,458978,B.bj,458979,B.bk,458980,B.bL,458981,B.bM,458982,B.bl,458983,B.bN,786528,B.td,786529,B.te,786543,B.iX,786544,B.iY,786546,B.tf,786547,B.tg,786548,B.th,786549,B.ti,786553,B.tj,786554,B.tk,786563,B.tl,786572,B.tm,786573,B.tn,786580,B.to,786588,B.tp,786589,B.tq,786608,B.iZ,786609,B.j_,786610,B.j0,786611,B.j1,786612,B.j2,786613,B.j3,786614,B.j4,786615,B.j5,786616,B.j6,786637,B.j7,786639,B.tr,786661,B.ts,786819,B.j8,786820,B.tt,786822,B.tu,786826,B.j9,786829,B.tv,786830,B.tw,786834,B.ja,786836,B.jb,786838,B.tx,786844,B.ty,786846,B.tz,786847,B.jc,786850,B.jd,786855,B.tA,786859,B.tB,786862,B.tC,786865,B.je,786871,B.tD,786891,B.jf,786945,B.tE,786947,B.tF,786951,B.tG,786952,B.tH,786977,B.jg,786979,B.jh,786980,B.ji,786981,B.jj,786982,B.jk,786983,B.jl,786986,B.jm,786989,B.tI,786990,B.tJ,786994,B.jn,787065,B.tK,787081,B.jo,787083,B.jp,787084,B.jq,787101,B.jr,787103,B.js],t.Vd)
-B.BZ=A.a(s(["in","iw","ji","jw","mo","aam","adp","aue","ayx","bgm","bjd","ccq","cjr","cka","cmk","coy","cqu","drh","drw","gav","gfx","ggn","gti","guv","hrr","ibi","ilw","jeg","kgc","kgh","koj","krm","ktr","kvs","kwq","kxe","kzj","kzt","lii","lmm","meg","mst","mwj","myt","nad","ncp","nnx","nts","oun","pcr","pmc","pmu","ppa","ppr","pry","puz","sca","skk","tdu","thc","thx","tie","tkk","tlw","tmp","tne","tnf","tsf","uok","xba","xia","xkh","xsj","ybd","yma","ymt","yos","yuu"]),t.s)
-B.aw=new A.b9(78,{in:"id",iw:"he",ji:"yi",jw:"jv",mo:"ro",aam:"aas",adp:"dz",aue:"ktz",ayx:"nun",bgm:"bcg",bjd:"drl",ccq:"rki",cjr:"mom",cka:"cmr",cmk:"xch",coy:"pij",cqu:"quh",drh:"khk",drw:"prs",gav:"dev",gfx:"vaj",ggn:"gvr",gti:"nyc",guv:"duz",hrr:"jal",ibi:"opa",ilw:"gal",jeg:"oyb",kgc:"tdf",kgh:"kml",koj:"kwv",krm:"bmf",ktr:"dtp",kvs:"gdj",kwq:"yam",kxe:"tvd",kzj:"dtp",kzt:"dtp",lii:"raq",lmm:"rmx",meg:"cir",mst:"mry",mwj:"vaj",myt:"mry",nad:"xny",ncp:"kdz",nnx:"ngv",nts:"pij",oun:"vaj",pcr:"adx",pmc:"huw",pmu:"phr",ppa:"bfy",ppr:"lcq",pry:"prt",puz:"pub",sca:"hle",skk:"oyb",tdu:"dtp",thc:"tpo",thx:"oyb",tie:"ras",tkk:"twm",tlw:"weo",tmp:"tyj",tne:"kak",tnf:"prs",tsf:"taj",uok:"ema",xba:"cax",xia:"acn",xkh:"waw",xsj:"suj",ybd:"rki",yma:"lrr",ymt:"mtm",yos:"zom",yuu:"yug"},B.BZ,t.li)
+B.C_=A.a(s(["in","iw","ji","jw","mo","aam","adp","aue","ayx","bgm","bjd","ccq","cjr","cka","cmk","coy","cqu","drh","drw","gav","gfx","ggn","gti","guv","hrr","ibi","ilw","jeg","kgc","kgh","koj","krm","ktr","kvs","kwq","kxe","kzj","kzt","lii","lmm","meg","mst","mwj","myt","nad","ncp","nnx","nts","oun","pcr","pmc","pmu","ppa","ppr","pry","puz","sca","skk","tdu","thc","thx","tie","tkk","tlw","tmp","tne","tnf","tsf","uok","xba","xia","xkh","xsj","ybd","yma","ymt","yos","yuu"]),t.s)
+B.aw=new A.b9(78,{in:"id",iw:"he",ji:"yi",jw:"jv",mo:"ro",aam:"aas",adp:"dz",aue:"ktz",ayx:"nun",bgm:"bcg",bjd:"drl",ccq:"rki",cjr:"mom",cka:"cmr",cmk:"xch",coy:"pij",cqu:"quh",drh:"khk",drw:"prs",gav:"dev",gfx:"vaj",ggn:"gvr",gti:"nyc",guv:"duz",hrr:"jal",ibi:"opa",ilw:"gal",jeg:"oyb",kgc:"tdf",kgh:"kml",koj:"kwv",krm:"bmf",ktr:"dtp",kvs:"gdj",kwq:"yam",kxe:"tvd",kzj:"dtp",kzt:"dtp",lii:"raq",lmm:"rmx",meg:"cir",mst:"mry",mwj:"vaj",myt:"mry",nad:"xny",ncp:"kdz",nnx:"ngv",nts:"pij",oun:"vaj",pcr:"adx",pmc:"huw",pmu:"phr",ppa:"bfy",ppr:"lcq",pry:"prt",puz:"pub",sca:"hle",skk:"oyb",tdu:"dtp",thc:"tpo",thx:"oyb",tie:"ras",tkk:"twm",tlw:"weo",tmp:"tyj",tne:"kak",tnf:"prs",tsf:"taj",uok:"ema",xba:"cax",xia:"acn",xkh:"waw",xsj:"suj",ybd:"rki",yma:"lrr",ymt:"mtm",yos:"zom",yuu:"yug"},B.C_,t.li)
 B.NB=new A.cl([9,B.dQ,10,B.hb,11,B.hc,12,B.hd,13,B.he,14,B.hf,15,B.hg,16,B.hh,17,B.hi,18,B.hj,19,B.hk,20,B.hp,21,B.hq,22,B.hm,23,B.hn,24,B.h1,25,B.h7,26,B.fQ,27,B.h2,28,B.h4,29,B.h9,30,B.h5,31,B.fU,32,B.h_,33,B.h0,34,B.hr,35,B.hs,36,B.hl,37,B.bh,38,B.fM,39,B.h3,40,B.fP,41,B.fR,42,B.fS,43,B.fT,44,B.fV,45,B.fW,46,B.fX,47,B.hu,48,B.hv,49,B.hw,50,B.bi,51,B.ht,52,B.ha,53,B.h8,54,B.fO,55,B.h6,56,B.fN,57,B.fZ,58,B.fY,59,B.hx,60,B.hy,61,B.hz,62,B.bM,63,B.hZ,64,B.bj,65,B.ho,66,B.cC,67,B.hA,68,B.hB,69,B.hC,70,B.hD,71,B.hE,72,B.hF,73,B.hG,74,B.hH,75,B.hI,76,B.hJ,77,B.cE,78,B.cD,79,B.i8,80,B.i9,81,B.ia,82,B.i_,83,B.i5,84,B.i6,85,B.i7,86,B.i0,87,B.i2,88,B.i3,89,B.i4,90,B.ib,91,B.ic,93,B.iR,94,B.id,95,B.hK,96,B.hL,97,B.iI,98,B.iP,99,B.iQ,100,B.iL,101,B.iJ,102,B.iM,104,B.i1,105,B.bL,106,B.hY,107,B.hM,108,B.bl,110,B.hP,111,B.hX,112,B.hQ,113,B.hV,114,B.hU,115,B.hS,116,B.hW,117,B.hT,118,B.hO,119,B.hR,121,B.iE,122,B.iG,123,B.iF,124,B.ig,125,B.ih,126,B.ta,127,B.hN,128,B.js,129,B.iH,130,B.iN,131,B.iO,132,B.iK,133,B.bk,134,B.bN,135,B.ie,136,B.jk,137,B.iy,139,B.iz,140,B.ix,141,B.iB,142,B.iv,143,B.iC,144,B.iD,145,B.iA,146,B.iw,148,B.ja,150,B.iU,151,B.iV,152,B.jb,158,B.tx,160,B.tz,163,B.j9,164,B.jm,166,B.ji,167,B.jj,169,B.j6,171,B.j3,172,B.j7,173,B.j4,174,B.j5,175,B.j0,176,B.j2,177,B.tm,179,B.j8,180,B.jh,181,B.jl,182,B.to,187,B.iS,188,B.iT,189,B.tE,190,B.tK,191,B.ii,192,B.ij,193,B.ik,194,B.il,195,B.im,196,B.io,197,B.ip,198,B.iq,199,B.ir,200,B.is,201,B.it,202,B.iu,209,B.j_,214,B.tF,215,B.iZ,216,B.j1,217,B.ts,218,B.tH,225,B.jg,232,B.iY,233,B.iX,235,B.iW,237,B.tk,238,B.tj,239,B.jq,240,B.jo,241,B.jp,242,B.tG,243,B.tA,252,B.ti,256,B.fL,366,B.td,370,B.tn,378,B.te,380,B.jn,382,B.tC,400,B.tD,405,B.tw,413,B.tl,418,B.tp,419,B.tq,426,B.tI,427,B.tJ,429,B.tt,431,B.tu,437,B.tv,439,B.tf,440,B.tB,441,B.ty,587,B.jc,588,B.jd,589,B.je,590,B.tr,591,B.jf,592,B.jr,600,B.tg,601,B.th,641,B.fK],t.Vd)
 B.rc=new A.b9(0,{},B.mc,A.a6("b9<C,qu>"))
 B.C8=A.a(s([]),t.R)
@@ -66279,8 +66278,8 @@ B.Ed=new A.b9(6,{click:null,touchstart:null,touchend:null,pointerdown:null,point
 B.Gi=new A.ed(B.Ed,t.XI)
 B.Ee=new A.cl([B.aI,null,B.ro,null,B.rp,null],A.a6("cl<hb,aT>"))
 B.jL=new A.ed(B.Ee,A.a6("ed<hb>"))
-B.C_=A.a(s(["click","keyup","keydown","mouseup","mousedown","pointerdown","pointerup"]),t.s)
-B.Ek=new A.b9(7,{click:null,keyup:null,keydown:null,mouseup:null,mousedown:null,pointerdown:null,pointerup:null},B.C_,t.uf)
+B.C0=A.a(s(["click","keyup","keydown","mouseup","mousedown","pointerdown","pointerup"]),t.s)
+B.Ek=new A.b9(7,{click:null,keyup:null,keydown:null,mouseup:null,mousedown:null,pointerdown:null,pointerup:null},B.C0,t.uf)
 B.Gj=new A.ed(B.Ek,t.XI)
 B.Fc=new A.fr(3,"invertedStylus")
 B.Fd=new A.fr(4,"trackpad")
@@ -66658,8 +66657,8 @@ B.L6=new A.mY(0,"up")
 B.L7=new A.mY(3,"left")
 B.L8=A.aG("nF")
 B.L9=A.aG("ft/(ft)")
-B.La=A.aG("by<0^>/(by<0^>)<C?>")
 B.Lb=A.aG("by<0^>/(by<0^>)<C?C?>")
+B.La=A.aG("by<0^>/(by<0^>)<C?>")
 B.Lc=A.aG("by<@>/(by<@>)")
 B.Ld=A.aG("nQ")
 B.Le=A.aG("nR")
